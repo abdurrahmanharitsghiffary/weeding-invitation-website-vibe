@@ -47,7 +47,7 @@ export function AttendanceForm() {
         <BlurFade delay={0.1} inView>
           <div className="text-center mb-12">
             <h2 className="font-heading text-5xl md:text-6xl font-bold text-[var(--wedding-dark)] mb-4">
-              RSVP
+              Confirm Your Attendance
             </h2>
             <p className="text-lg text-[var(--wedding-accent)]">
               Please let us know if you can join us
