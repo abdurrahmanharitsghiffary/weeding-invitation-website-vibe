@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💍 Nobita & Shizuka Wedding Invitation
 
-## Getting Started
+A beautiful, modern wedding invitation website built for the Vibe Code competition.
 
-First, run the development server:
+## ✨ Features
+
+### Core Features (MVP)
+
+- **Hero Section** with animated countdown timer to wedding date
+- **RSVP/Attendance System** with localStorage persistence
+- **Event Details** with ceremony, reception, venue map, and dress code
+- **Photo Gallery** with elegant hover effects
+- **Guest Messages Board** for well wishes and blessings
+- **Responsive Design** - works perfectly on all devices
+
+### Tech Stack
+
+- **Next.js 15** with App Router
+- **shadcn/ui** components
+- **Magic UI** for beautiful animations and effects
+- **Zustand** for state management
+- **localStorage** for data persistence
+- **Tailwind CSS** with custom wedding theme
+
+### Magic UI Components Used
+
+- ✨ **SparklesText** - Animated couple names with sparkles
+- 🎆 **Particles** - Floating particles background
+- 🌟 **BorderBeam** - Animated border effects on cards
+- 💫 **BlurFade** - Smooth fade-in animations
+- ✨ **ShimmerButton** - Shimmering submit buttons
+- 💎 **AnimatedShinyText** - Shiny text effects
+
+## 🚀 Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Design Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Custom Wedding Color Palette**: Gold (#d4af37), Cream (#f8f5f0), Warm Brown (#8b7355)
+- **Elegant Typography**: Playfair Display for headings, Inter for body text
+- **Glassmorphism Effects**: Beautiful glass cards with backdrop blur
+- **Smooth Animations**: Fade-ins, hover effects, and transitions
+- **Particle Effects**: Floating gold particles in hero section
 
-## Learn More
+## 📱 Sections
 
-To learn more about Next.js, take a look at the following resources:
+1. **Hero** - Couple names, date, venue, countdown timer
+2. **Event Details** - Ceremony, reception, venue map, dress code
+3. **Gallery** - 6 beautiful couple photos
+4. **RSVP** - Guest attendance form with dietary restrictions
+5. **Wishes** - Guest message board with real-time updates
+6. **Footer** - Thank you message
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💾 Data Persistence
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+All data is stored in browser localStorage:
 
-## Deploy on Vercel
+- Guest RSVPs and attendance count
+- Guest messages and wishes
+- Persists across page refreshes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Competition Focus
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with **MVP-first approach**:
+
+- ✅ Core features working perfectly
+- ✅ Beautiful design with Magic UI effects
+- ✅ Mobile responsive
+- ✅ Fast performance
+- ✅ Clean, maintainable code
+
+## 👰🤵 Couple
+
+**Nobita & Shizuka**  
+August 15, 2025  
+The Grand Estate Gardens, Napa Valley
+
+---
+
+Built with ❤️ for Vibe Code Competition
