@@ -20,7 +20,7 @@ export function Navbar() {
     { href: "#home", label: "Home" },
     { href: "#details", label: "Details" },
     { href: "#gallery", label: "Gallery" },
-    { href: "#rsvp", label: "RSVP" },
+    { href: "#rsvp", label: "Attendance" },
     { href: "#messages", label: "Wishes" },
   ];
 

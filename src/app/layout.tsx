@@ -27,7 +27,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Our Wedding Day | Join Us in Celebration",
   description:
-    "You're invited to celebrate our special day! Join us for an unforgettable wedding celebration filled with love, joy, and cherished memories. RSVP and share your wishes with us.",
+    "You're invited to celebrate our special day! Join us for an unforgettable wedding celebration filled with love, joy, and cherished memories. Confirm your attendance and share your wishes with us.",
 };
 
 export default function RootLayout({

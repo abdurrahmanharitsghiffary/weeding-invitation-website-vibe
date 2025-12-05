@@ -63,7 +63,7 @@ export function AttendanceForm() {
 
         <BlurFade delay={0.2} inView>
           {submitted ? (
-            <div className="relative glass-card rounded-2xl p-12 text-center shadow-xl overflow-hidden">
+            <div className="relative glass-card rounded-2xl p-12 text-center shadow-xl">
               <BorderBeam size={250} duration={12} delay={9} />
               <CheckCircle2 className="w-16 h-16 text-green-500 mx-auto mb-4" />
               <h3 className="font-heading text-3xl font-bold text-[var(--wedding-dark)] mb-2">
@@ -76,10 +76,8 @@ export function AttendanceForm() {
           ) : (
             <form
               onSubmit={handleSubmit}
-              className="relative glass-card rounded-2xl p-8 shadow-xl space-y-6 overflow-hidden"
+              className="relative glass-card rounded-2xl p-8 shadow-xl space-y-6"
             >
-              <BorderBeam size={250} duration={12} delay={9} />
-
               <div>
                 <Label
                   htmlFor="name"
@@ -193,7 +191,7 @@ export function AttendanceForm() {
                 shimmerColor="#f4e5a1"
                 shimmerSize="0.1em"
               >
-                Submit RSVP
+                Submit Response
               </ShimmerButton>
             </form>
           )}
